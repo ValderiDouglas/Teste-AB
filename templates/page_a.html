@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page A/B Test - Versão A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button {
+            display: block;
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Versão A</h1>
+    <p>Descubra o Poder do SuperGadget X - Sua Solução Multifuncional para Tarefas Diárias.</p>
+    <img src= "images.png" alt="SuperGadget X">
+    <form action="/submit" method="post">
+        <input type="hidden" name="versao" value="A">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <label for="text">E-mail:</label>
+        <input type="text" id="email" name="email">
+        <label for="text">Telefone:</label>
+        <input type="text" id="telefone" name="telefone">
+        <button type="submit">Obter SuperGadget X Agora!</button>
+    </form>
+</body>
+</html>
